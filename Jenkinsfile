@@ -1,5 +1,5 @@
 pipeline {
-  agent py
+  agent 'py'
   stages {
     stage('version') {
       steps {
