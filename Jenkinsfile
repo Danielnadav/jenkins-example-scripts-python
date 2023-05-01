@@ -1,5 +1,5 @@
 pipeline {
-  agent 'py'
+  agent { label 'py'}
   stages {
     stage('version') {
       steps {
